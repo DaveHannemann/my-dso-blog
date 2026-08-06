@@ -9,15 +9,15 @@ dotenvconfig();
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
 
 const config: Config = {
-  title: 'DSO Live Demo Docs',
-  tagline: 'Dinosaurs are cool',
+  title: 'DevSecOps Journey',
+  tagline: 'Documenting my journey through DevSecOps – one week, one project, one lesson at a time.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: process.env.DEPLOYMENT_URL ?? "https://spmse.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: process.env.BASE_URL ?? "/",
+  baseUrl: process.env.BASE_URL ?? "/my-dso-blog/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -76,7 +76,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'My Portfolio',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
