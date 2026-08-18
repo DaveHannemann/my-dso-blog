@@ -9,11 +9,6 @@ dotenvconfig();
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
 const git_repository_url = process.env.GIT_REPOSITORY_URL
 
-console.log('BASE_URL:', process.env.BASE_URL);
-console.log('DEPLOYMENT_URL:', process.env.DEPLOYMENT_URL);
-console.log('GITHUB_ORG:', process.env.GITHUB_ORG);
-console.log('GITHUB_PROJECT:', process.env.GITHUB_PROJECT);
-
 const config: Config = {
   title: 'DevSecOps Journey',
   tagline: 'Documenting my journey through DevSecOps – one week, one project, one lesson at a time.',
