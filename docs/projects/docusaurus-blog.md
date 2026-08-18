@@ -28,6 +28,7 @@ Checkout this repository to see the code/implementation
    ```bash
    git clone https://github.com/DaveHannemann/my-dso-blog.git
    cd my-dso-blog
+   ```
 
 2. Create a .env file based on the provided example.env and configure the required environment variables.
 
@@ -35,16 +36,19 @@ Checkout this repository to see the code/implementation
 
     ```bash 
     git checkout -b feature/my-feature
+    ```
 
 4. Install the dependencies:
 
     ```bash
     pnpm install
+    ```
 
 5. Start the local development server:
 
     ```bash
     pnpm start
+    ```
 
 6. Open the displayed local URL in your browser to view the website.
 

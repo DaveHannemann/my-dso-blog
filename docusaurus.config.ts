@@ -77,7 +77,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'DevSecOps Journey',
+      title: 'My DevSecOps Journey',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -106,7 +106,7 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/guides/intro',
             },
-          {
+            {
               label: 'Projects',
               to: '/docs/projects/overview',
             }
