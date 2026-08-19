@@ -32,11 +32,6 @@ Checkout this repository to see the code/implementation
 
 2. Create a .env file based on the provided example.env and configure the required environment variables.
 
-3. Create a feature branch for your changes:
-
-    ```bash 
-    git checkout -b feature/my-feature
-    ```
 
 4. Install the dependencies:
 
