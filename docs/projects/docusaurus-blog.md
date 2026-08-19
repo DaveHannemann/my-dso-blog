@@ -26,26 +26,25 @@ Checkout this repository to see the code/implementation
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/DaveHannemann/my-dso-blog.git
+   git clone git@github.com:DaveHannemann/my-dso-blog.git
    cd my-dso-blog
    ```
 
 2. Create a .env file based on the provided example.env and configure the required environment variables.
 
-
-4. Install the dependencies:
+3. Install the dependencies:
 
     ```bash
     pnpm install
     ```
 
-5. Start the local development server:
+4. Start the local development server:
 
     ```bash
     pnpm start
     ```
 
-6. Open the displayed local URL in your browser to view the website.
+5. Open the displayed local URL in your browser to view the website.
 
 ## Description
 
