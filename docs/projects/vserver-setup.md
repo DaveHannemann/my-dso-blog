@@ -8,11 +8,14 @@ The server was set up as a virtual machine using VirtualBox and Ubuntu Server. T
 ## Table of Contents
 
 <!--INSERT YOUR TABLE OF CONTENTS HERE -->
+- [Quickstart](#quickstart)
+- [Description](#description)
+- [Further References](#further-references)
 
 import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
 
 <GithubLinkAdmonition 
-    link="https://github.com/spmse/dev-blog-template"
+    link="https://github.com/DaveHannemann/my-dso-blog/blob/main/docs/projects/vserver-setup.md"
     title="Github Tip" 
     type="tip"
 />
@@ -143,7 +146,7 @@ import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
 
     and test your alternatives with
     ```bash
-    ip.addr:8081
+    http://ip.addr:8081
     ```
 
 8. Connect your Server with Git
@@ -159,7 +162,7 @@ import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
     ```
     The public key was then added to GitHub under **Settings → SSH and GPG keys**.
 
-    Add this key to your GitHub account and test it with
+    Test it with:
     ```bash
     ssh -T git@github.com
     ```
@@ -179,3 +182,7 @@ The purpose of this project is to practice basic server administration and DevSe
 The server is running locally in a virtual machine and is used as a learning environment for the practical implementation of the required server setup.
 
 ## Further References
+
+- [OpenSSH Documentation](https://www.openssh.com/manual.html)
+- [NGINX Documentation](https://nginx.org/en/docs/)
+- [GitHub Docs - Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
