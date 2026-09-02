@@ -158,7 +158,7 @@ import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
     git --version
     ```
 
-    If not, the use:
+    If not, use:
 
     ```bash
     sudo apt install git 
