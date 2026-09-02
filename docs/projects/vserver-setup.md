@@ -36,12 +36,14 @@ import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
     ```
 
 3. Test Login using SSH
+    Log in to the server using SSH and verify that authentication works without entering the server user's password:
 
     ```bash
     ssh name@ip.addr
     ```
 
 4. Disable Password Login
+    Once SSH key authentication has been successfully tested, open the SSH configuration:
 
     ```bash
     sudo nano /etc/ssh/sshd_config
@@ -149,7 +151,21 @@ import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
     http://ip.addr:8081
     ```
 
-8. Connect your Server with Git
+8. Connect your Server to GitHub
+    Check first, if Git is already installed:
+
+    ```bash
+    git --version
+    ```
+
+    If not, the use:
+
+    ```bash
+    sudo apt install git 
+    ```
+
+    Configure your Git username and email:
+
     ```bash
     git config --global user.name "GitUserName" 
     git config --global user.email "your-git-email@example.com"
